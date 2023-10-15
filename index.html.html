@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DemoWebsite</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<style>
+  .img{height:200px;
+    width:200px;}
+  #new{background-color:yellow;}
+  .new{color:black;
+    font-weight:bold;}
+  .ind{height:100px;
+    width:100px;}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row bg-info">
+			<p class="text-danger"><marquee>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</marquee></p>
+		</div>
+	</div>
+
+	<div class="container-fluid bg-success">
+		<span><b>Email:</b>demo@gmail.com</span>
+		<span class="float-end"><b>Phone No.:</b>demo@gmail.com</span>
+		
+	</div>
+
+	<div class="container-fluid bg-primary my-1">
+		<div><img src="ind.png" class="ind">
+		<span class="display-3 text-center">Alexa 2.O</span></div>
+	</div>
+	<div class="container-fluid">
+		<nav class="navbar navbar-expand-lg navbar-light  bg-danger">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="new.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="aboutus.html">About Us</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="contactus.html">Contact Us</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="ourproduct.html">Our Product</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li>
+           <form class="d-flex">
+       <button type="button" class="btn btn-primary btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Log In</button>
+      </form>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav></div>
+<div>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-8 col-md-12 ">
+              <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="World-Cup-1.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="dhoni.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="kohli.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+            </div>
+            <div class="col-lg-4 col-md-12 display-3 text-center text-danger " id="new">Notice</div>
+          </div>
+        </div>
+        <div class="container-fluid  bg-info">
+          <div class="text-center display-3">Our Team</div>
+          <div class="row">
+            <div class="col-lg-2 col-md-12">
+             <center> <img src="rohit.jpg" class="img-thumbnail img" alt="..."></center>
+              <center class="new"><span>Rohit Sharma</span><br>
+              <span>Right-Handed Batsman</span>
+              <span>Captain</span></center>
+            </div>
+            <div class="col-lg-2 col-md-12">
+             <center> <img src="shubhman.jpg" class="img-thumbnail img" alt="..."></center>
+             <center class="new"> <span>Shubhman Gill</span><br>
+              <span>Right-Handed Batsman</span></center>
+            </div>
+            <div class="col-lg-2 col-md-12">
+             <center>  <img src="virat2.jpg" class="img-thumbnail img" alt="..."></center>
+              <center class="new"><span>Virat Kohli</span><br>
+              <span>Right-Handed Batsman</span></center>
+            </div>
+            <div class="col-lg-2 col-md-12">
+             <center>  <img src="kl.jpg" class="img-thumbnail img" alt="..."></center>
+              <center class="new"><span>Kl Rahul</span><br>
+              <span>Right-Handed Batsman</span></center>
+            </div>
+            <div class="col-lg-2 col-md-12">
+              <center> <img src="surya.jpg" class="img-thumbnail img" alt="..."></center>
+             <center class="new"> <span>Surya Kumar Yadav</span><br>
+              <span>Right-Handed Batsman</span></center>
+            </div>
+            <div class="col-lg-2 col-md-12">
+             <center>  <img src="kishan.jpg" class="img-thumbnail img" alt="..."></center>
+             <center class="new"> <span>Ishan kishan</span><br>
+              <span>Left-Handed Batsman</span></center>
+            </div>
+          </div>
+           <div class="row">
+            <div class="col-lg-2 col-md-12">
+             <center>  <img src="hardik.jpg" class="img-thumbnail img" alt="..."></center>
+             <center class="new"> <span>Hardik Pandaya</span><br>
+              <span>All Rounder</span><br>
+              <span>Vice-Captain</span></center>
+            </div>
+            <div class="col-lg-2 col-md-12">
+             <center>  <img src="ravindra.jpg" class="img-thumbnail img" alt="..."></center>
+             <center class="new">  <span>Ravindra Jadeja</span><br>
+              <span>All Rounder</span></center>
+            </div>
+            <div class="col-lg-2 col-md-12">
+             <center>  <img src="shreyas.jpg" class="img-thumbnail img" alt="..."></center>
+               <center class="new"><span>Shreyas Iyer</span><br>
+              <span>Right-Handed Batsman</span></center>
+            </div>
+            <div class="col-lg-2 col-md-12">
+             <center>  <img src="ashwin.jpg" class="img-thumbnail img" alt="..."></center>
+               <center class="new"><span>RavindraChanda Ashwin</span><br>
+              <span>All Rounder</span></center>
+            </div>
+            <div class="col-lg-2 col-md-12">
+            <center>   <img src="shardul.jpg" class="img-thumbnail img" alt="..."></center>
+              <center class="new"> <span>Shardul Thakur</span><br>
+              <span>All Rounder</span></center>
+            </div>
+            <div class="col-lg-2 col-md-12">
+              <center> <img src="kuldeep.jpg" class="img-thumbnail img" alt="..."></center>
+               <center class="new"><span>Kuldeep Yadav</span><br>
+              <span>Bowler</span></center>
+            </div>
+          </div>
+           <div class="row">
+            <div class="col-lg-4 col-md-12">
+             <center> <img src="jasprit.jpg" class="img-thumbnail img" alt="..."></center>
+              <center class="new"><span>Jasprit Bumrah</span><br></center>
+              <center class="new"><span>Bowler</span></center>
+            </div>
+            <div class="col-lg-4 col-md-12">
+             <center><img src="siraj.jpg" class="img-thumbnail img" alt="..."></center>
+              <center class="new"><span>Mohammed Siraj</span><br></center>
+              <center class="new"><span>Bowler</span></center>
+            </div>
+            <div class="col-lg-4 col-md-12">
+             <center> <img src="shami.jpg" class="img-thumbnail img" alt="..."></center>
+              <center class="new"><span>Mohammed Shami</span><br></center>
+              <center class="new"><span>Bowler</span></center>
+            </div>
+          </div>
+        </div>
+        <!-- Button trigger modal -->
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <p class="text-center text-danger display-3" id="exampleModalLabel">Alexa 2.O Login</p>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+    <input type="text" placeholder="enter your user id" required id="us" class="form-control" ><br>
+    <input type="password" placeholder="password" id="pss" class="form-control" ><br>
+      </div>
+      <h1 id="ddt"></h1></center>
+      <div class="modal-footer">
+        <!--<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button><-->
+        <button onclick="go()" type="button" class="btn btn-primary"  id="lg">Log In</button>
+      </div>
+    </div>
+  </div>
+</div>
+	</div>
+  <script type="text/javascript">
+  function go(){
+      event.preventDefault();
+      let n=document.getElementById('us').value;
+      let p=document.getElementById('pss').value;
+      if(n === 'balaji123' && p === 'prnp')
+      {
+        window.open('https://www.bing.com/search?pglt=41&q=google+chrome&cvid=66c6dacda647428a98f4d4a345d8af71&gs_lcrp=EgZjaHJvbWUqBAgCEC4yBAgAEAAyBAgBEC4yBAgCEC4yBAgDEC4yBggEEEUYQTIGCAUQRRg8MgYIBhBFGEEyBggHEEUYQTIGCAgQRRg80gEINDc1MmowajGoAgCwAgA&FORM=ANNTA1&PC=HCTS')
+      }
+      else
+      {
+        document.getElementById('ddt').innerHTML="Username or password is wrong";
+      }
+    }
+  </script>
+
+
+</body>
+</html>
